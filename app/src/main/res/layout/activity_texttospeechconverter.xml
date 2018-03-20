@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="3"
+    android:background="@color/colorred"
+    tools:context="com.example.saurabh.text_to_speak.Texttospeechconverter">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TEXT TO SPEECH CONVERSION"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:textSize="20dp"
+        android:background="@color/coloryello"
+        android:textColor="@color/colorblack"
+        android:id="@+id/tv"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginTop="250dp"
+        android:hint="ENTER TEXT HERE"
+        android:gravity="center"
+        android:background="@color/colorgray"
+        android:id="@+id/et1"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:text="ENTER"
+        android:id="@+id/btn1"
+        />
+
+</RelativeLayout>
